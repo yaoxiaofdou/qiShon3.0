@@ -1,0 +1,24 @@
+.qsDocPanel{
+    $qsDoc-hColor:#00a0e9;
+
+    background-color:#fff;
+    .qsDoc__h{
+        padding-left:24px;
+        position: relative;
+        margin:40px 0 20px;
+        &:before{
+            content:"";
+            display:inline-block;
+            width:4px;
+            height: 20px;
+            position: absolute;
+            left:12px;
+            top:0;
+            background-color:$qsDoc-hColor;
+        }
+    }
+    .qsDoc__li{
+        margin-bottom: 20px;
+    }
+
+}

@@ -6,6 +6,48 @@
 *    path /Users/apple/qishon/qishon3.0/src/view/index/index.scss
 *************************************/
 
-.App{
-    
+.qsIndex {
+    $font12: 1rem;
+    $font16: 1.33rem;
+    $font18: 1.5rem;
+    $height45: 3.75rem;
+    .project {
+        width: 100%;
+        background-color: #fafafa;
+        padding: 40px 0;
+        .system {
+            background-color: #ffffff;
+            text-align: center;
+            height: 221px;
+            border: 1px solid #eeeeee;
+            position: relative;
+            .projectName {
+                font-size: $font18;
+                line-height: 3.5rem;
+                position: absolute;
+                top: 0;
+                z-index: 2;
+                width: 100%;
+            }
+            .projectDesc {
+                font-size: $font12;
+                position: absolute;
+                top: 4.3rem;
+                z-index: 2;
+                width: 100%;
+            }
+            img{
+                position: absolute;
+                left: 0;
+                right:0;
+                bottom: 1rem;
+                margin:auto;
+            }
+            &:nth-child(3){
+                img{
+                    bottom: 0;
+                }
+            }
+        }
+    }
 }

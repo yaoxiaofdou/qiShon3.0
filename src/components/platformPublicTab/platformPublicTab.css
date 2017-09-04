@@ -1,0 +1,28 @@
+.cus-p {
+  margin: 3% 0;
+  font-size: 1.4rem; }
+  .cus-p .my-tab .nav-tab {
+    display: inline-block;
+    color: #3C3F41;
+    font-weight: 400;
+    padding: 1.25rem 5rem; }
+  .cus-p .my-tab .nav-tab--active {
+    background-color: #f8f8f8;
+    color: #00a0e9; }
+  .cus-p span {
+    color: #999999; }
+  .cus-p .qsPlatform__flowPanel {
+    display: inline-block;
+    width: 15rem;
+    height: 15rem;
+    background: url("../../images/lx5.png") no-repeat center center;
+    background-size: 100% 100%;
+    padding-top: 6.2rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+    position: relative; }
+    .cus-p .qsPlatform__flowPanel span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 4rem; }

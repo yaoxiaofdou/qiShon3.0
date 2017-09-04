@@ -1,0 +1,64 @@
+.productitem {
+    .tab1 {
+        background-color: #eee;
+        padding: 60px 20px;
+        text-align: center;
+        img {
+            width: 50%;
+            height: 50%;
+        }
+    }
+    .tab2 {
+        padding: 40px 0;
+        text-align: center;
+        img {
+            width: 50%;
+            height: 50%;
+        }
+    }
+    .text {
+        h3 {
+            font-size: 24px;
+            margin-top: 8%;
+        }
+        p {
+            font-size: 14px;
+            color: #777;
+        }
+    }
+    .product {
+        margin-top: 20px;
+    }
+    /*媒体查询*/
+    /*当页面大于1200px时，大屏幕，主要是pc端*/
+    @media (min-width: 1200px) {
+        .tab1-text {
+            float: left;
+        }
+        .tab1-img {
+            float: right;
+        }
+    }
+    /*在992和1199像素之间的屏幕里，中等屏幕，分辨率低的pc*/
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .tab1-text {
+            float: left;
+        }
+        .tab1-img {
+            float: right;
+        }
+    }
+    /*在768和991像素之间的屏幕里，小屏幕，主要是PAD*/
+    @media (min-width: 768px) and (max-width: 991px) {
+        .tab1-text {
+            float: left;
+        }
+        .tab1-img {
+            float: right;
+        }
+    }
+    /*在480和767像素之间的屏幕里，超小屏幕，主要用于手机*/
+    @media (min-width: 480px) and (max-width: 767px) {}
+    /*在小于480像素的屏幕，微小屏幕，更低分辨率的手机*/
+    @media (max-width: 479px) {}
+}

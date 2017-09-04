@@ -5,7 +5,7 @@ import colorReducer from './colorReducer';
 
 const rootReducer = combineReducers({
   form: formReducer,
-  colorReducer:colorReducer
+  colorReducer
 })
 
 export default rootReducer;

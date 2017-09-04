@@ -1,0 +1,124 @@
+.t-c{
+  text-align: center;
+}
+.none-px{
+  padding: 0 0 5% 0;
+  margin: 0;
+  background-color: #fafafa;
+  .cus-h3{
+    text-align: center;
+    background-color: #fafafa;
+    margin: 2% 0;
+  }
+  .border{
+    border: 1px solid #dddddd;
+    background-color: white;
+    //margin: 10px;
+    .cus{
+      border: none;
+      img{
+        height: 42px;
+      }
+      .cus-title{
+        padding: 5% 0;
+        font-size: 1.4rem;
+      }
+      .cus-detail{
+        color: #9f9f9f;
+      }
+    }
+
+    .cus-enter{
+      a{
+        color: #33b3ed;
+        cursor: pointer;
+        span{
+          position: relative;
+          display:inline-block;
+          margin-left: 5px;
+          width: 0;
+          height: 0;
+          border-top: 5px solid transparent;
+          border-bottom: 5px solid transparent;
+          border-left: 8px solid #33b3ed;
+        }
+      }
+    }
+  }
+  
+}
+
+.my-tab2{
+  padding: 0;
+  margin: 0;
+  .my-tab2__item{
+    font-size: 1.5rem;
+    cursor: pointer;
+    .nav-tab-child{
+      padding: 20px 30px;
+      background-color: #dddddd;
+      span{
+        margin-left: 5%;
+      }
+    }
+    .my-tab2__item--active{
+      background-color: #fff;
+    }
+  }
+}
+
+.qsPlatform__content__item{
+  .qsPlatform__content__itemLi{
+    display:none;
+  }
+  .qsPlatform__content__item--show{
+    display: block;
+  }
+}
+
+.square {
+  position: relative;
+  margin:4rem 8rem;
+  width: 10rem;
+  height: 10rem;
+  background-color: #f0f0f0;
+  transform: rotate(45deg);
+  .num{
+    position: absolute;
+    top: 1.2rem;
+    left: -1.7rem;
+    color: #999999;
+    font-size: 3.5rem;
+    transform: rotate(-45deg);
+  }
+  .num2{
+    position: absolute;
+    top: 8.3rem;
+    left: 5rem;
+    color: #999999;
+    font-size: 3.5rem;
+    transform: rotate(-45deg);
+  }
+  .cont{
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    transform: rotate(-45deg);
+  }
+}
+
+
+/*在480和767像素之间的屏幕里，超小屏幕，主要用于手机*/
+@media (min-width: 480px) and (max-width: 767px) {
+  .img-display{
+    display: none;
+  }
+}
+/*在小于480像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media (max-width: 479px) {
+  .img-display{
+    display: none;
+  }
+}

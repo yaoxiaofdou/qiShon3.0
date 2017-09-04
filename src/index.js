@@ -12,7 +12,11 @@ import registerServiceWorker from './registerServiceWorker';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Home from './view/index/index';
-import Demo from './view/demo/demo';
+import SaasFabric from './view/saasFabric/saasFabric';
+import Case from './view/case/case';
+import Consulting from'./view/consulting/consulting';
+import Customization from './view/saasCustomization/customization';
+import Product from './view/product/product';
 
 import store from './redux/store/index';
 
@@ -26,8 +30,12 @@ class App extends Component {
                     <Header />
   
                     <Route exact path="/" component={Home}/>
-                    <Route path="/demo" component={Demo}/>
-                  
+                    <Route path="/product" component={Product}/>
+                    <Route path="/customization" component={Customization} />
+                    <Route path="/saasFabric" component={SaasFabric}/>
+                    <Route path="/case" component={Case}/>
+                    <Route path="/consulting" component={Consulting}/>
+
                     <Footer />
   
                 </div>

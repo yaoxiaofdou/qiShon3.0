@@ -1,0 +1,47 @@
+/*************************************
+*    create by xiaofeng.yao
+*    email 871213171@qq.com
+*    time 2018.08.30
+*    component qs-card
+*    path /Users/apple/qishon/qishon-web-3.0/official-website/src/less/componnet/qs-card.less
+*************************************/
+.qs-card {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid #ebeef3; }
+  .qs-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 2px #eee; }
+  .qs-card a {
+    text-decoration: none; }
+    .qs-card a .qs-card__headerImg {
+      width: 100%;
+      height: 15rem;
+      overflow: hidden; }
+      .qs-card a .qs-card__headerImg img {
+        width: 100%; }
+    .qs-card a .qs-card__contentTxt {
+      width: 100%; }
+      .qs-card a .qs-card__contentTxt .qs-card__contentTxt__panel {
+        padding: 1.2rem 1.4rem; }
+        .qs-card a .qs-card__contentTxt .qs-card__contentTxt__panel h3 {
+          margin: 0;
+          font-size: 1.116rem;
+          color: #333; }
+        .qs-card a .qs-card__contentTxt .qs-card__contentTxt__panel h2 {
+          font-size: 1.66667rem;
+          color: #333;
+          margin: 1.66667rem 0 1.2rem; }
+        .qs-card a .qs-card__contentTxt .qs-card__contentTxt__panel p {
+          font-size: 1.01rem;
+          color: #aaa;
+          font-weight: 100;
+          margin: 0; }
+        .qs-card a .qs-card__contentTxt .qs-card__contentTxt__panel .qs-card__contentTxt__panel__txt {
+          height: 4rem; }
+        .qs-card a .qs-card__contentTxt .qs-card__contentTxt__panel .qs-card__contentTxt__panel__a {
+          margin: 0;
+          padding: 1rem 0 0; }
+        .qs-card a .qs-card__contentTxt .qs-card__contentTxt__panel .qs-card__contentTxt__panel__a--border {
+          border-top: 1px solid #ebeef3; }

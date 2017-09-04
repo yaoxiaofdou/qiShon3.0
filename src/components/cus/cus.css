@@ -1,0 +1,9 @@
+.cus {
+  border: none; }
+  .cus img {
+    height: 42px; }
+  .cus .cus-title {
+    padding: 5% 0;
+    font-size: 1.4rem; }
+  .cus .cus-detail {
+    color: #9f9f9f; }

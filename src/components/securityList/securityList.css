@@ -1,0 +1,27 @@
+.data {
+  padding: 0;
+  margin: 0 0 5% 0; }
+  .data .data-title {
+    margin: 4% 0 2% 0;
+    color: #333333;
+    font-size: 2.5rem; }
+  .data .data-title-s {
+    font-size: 1.2rem;
+    margin-bottom: 2%; }
+  .data .thumbnail {
+    height: 400px;
+    border-radius: 0;
+    border-top: 3px solid #33b3ed; }
+    .data .thumbnail .caption-title {
+      font-size: 1.8rem;
+      color: #33b3ed; }
+    .data .thumbnail .caption-detail {
+      font-size: 1.3rem; }
+  .data .detail {
+    margin-top: 3%; }
+    .data .detail span {
+      color: #33b3ed;
+      font-size: 1.2rem;
+      padding: 8px 6px;
+      border: 1px solid #33b3ed;
+      border-radius: 5px; }

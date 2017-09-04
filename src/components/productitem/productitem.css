@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.productitem {
+  /*媒体查询*/
+  /*当页面大于1200px时，大屏幕，主要是pc端*/
+  /*在992和1199像素之间的屏幕里，中等屏幕，分辨率低的pc*/
+  /*在768和991像素之间的屏幕里，小屏幕，主要是PAD*/
+  /*在480和767像素之间的屏幕里，超小屏幕，主要用于手机*/
+  /*在小于480像素的屏幕，微小屏幕，更低分辨率的手机*/ }
+  .productitem .tab1 {
+    background-color: #eee;
+    padding: 60px 20px;
+    text-align: center; }
+    .productitem .tab1 img {
+      width: 50%;
+      height: 50%; }
+  .productitem .tab2 {
+    padding: 40px 0;
+    text-align: center; }
+    .productitem .tab2 img {
+      width: 50%;
+      height: 50%; }
+  .productitem .text h3 {
+    font-size: 24px;
+    margin-top: 8%; }
+  .productitem .text p {
+    font-size: 14px;
+    color: #777; }
+  .productitem .product {
+    margin-top: 20px; }
+  @media (min-width: 1200px) {
+    .productitem .tab1-text {
+      float: left; }
+    .productitem .tab1-img {
+      float: right; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .productitem .tab1-text {
+      float: left; }
+    .productitem .tab1-img {
+      float: right; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .productitem .tab1-text {
+      float: left; }
+    .productitem .tab1-img {
+      float: right; } }

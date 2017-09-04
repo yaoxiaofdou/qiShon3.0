@@ -1,0 +1,69 @@
+/*************************************
+*    create by xiaofeng.yao
+*    email 871213171@qq.com
+*    time 2017.08.30
+*    component qs-footer
+*    path /Users/apple/qishon/qishon-web-3.0/official-website/src/less/component/qs-footer.less
+*************************************/
+.qs-footer {
+  width: 100%;
+  background-color: #333;
+  position: relative;
+  padding: 4rem 0 1.67rem 0; }
+  .qs-footer .qs-footer__litxt {
+    padding: 0; }
+    .qs-footer .qs-footer__litxt ul {
+      display: inline-block;
+      vertical-align: top; }
+      .qs-footer .qs-footer__litxt ul li {
+        list-style: none;
+        font-weight: 100;
+        margin: 0 0 1.17rem 0; }
+        .qs-footer .qs-footer__litxt ul li a {
+          text-decoration: none;
+          color: #6d6d71;
+          font-size: 1rem;
+          cursor: pointer; }
+          .qs-footer .qs-footer__litxt ul li a:hover {
+            color: #9f9fa5; }
+      .qs-footer .qs-footer__litxt ul .qs-footer__litxt__title {
+        color: #fff;
+        font-size: 1.17rem; }
+  .qs-footer .qs-footer__phone {
+    text-align: right;
+    color: #fff; }
+    .qs-footer .qs-footer__phone h3 {
+      font-weight: 200;
+      font-size: 2rem;
+      letter-spacing: 1px; }
+    .qs-footer .qs-footer__phone h5 {
+      font-weight: 100;
+      font-size: 1rem;
+      margin-bottom: 1.67rem; }
+    .qs-footer .qs-footer__phone .qs-footer__phone__btn {
+      margin-bottom: 2.17rem; }
+      .qs-footer .qs-footer__phone .qs-footer__phone__btn .btn {
+        color: #a0a0a0;
+        border: 1px solid #a0a0a0;
+        background-color: transparent;
+        cursor: pointer; }
+        .qs-footer .qs-footer__phone .qs-footer__phone__btn .btn:hover {
+          color: #dedddd; }
+    .qs-footer .qs-footer__phone .qs-footer__phone__icon {
+      color: #a0a0a0; }
+      .qs-footer .qs-footer__phone .qs-footer__phone__icon i {
+        font-size: 2.17rem;
+        margin-left: 0.83rem; }
+        .qs-footer .qs-footer__phone .qs-footer__phone__icon i:hover {
+          color: #dedddd;
+          cursor: pointer; }
+  .qs-footer .qs-footer__company {
+    text-align: center;
+    color: #6d6d71;
+    margin-top: 5rem; }
+    .qs-footer .qs-footer__company p {
+      font-size: 1rem;
+      margin: 0 0 0.42rem 0; }
+    .qs-footer .qs-footer__company h4 {
+      margin: 0;
+      font-size: 1rem; }

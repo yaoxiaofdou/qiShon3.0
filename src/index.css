@@ -1,8 +1,18 @@
 html{
   font-size:12px;
 }
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar{
+  width: 100%;
+  background-color: #ffffff;
+  padding: 15px 0;
+  border: none;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1180px;
+  }
 }

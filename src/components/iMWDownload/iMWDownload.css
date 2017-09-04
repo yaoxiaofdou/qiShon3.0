@@ -1,0 +1,10 @@
+.download {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #4d4d4d; }
+  .download .thumbnail {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: #4d4d4d; }
